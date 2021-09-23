@@ -1,0 +1,100 @@
+body{
+	/*background-color: lightsteelblue;*/
+	background-image: url("gif/mar.gif");
+	background-position: center, center;
+}
+
+.container{
+	background-color: orangered;
+	width: 1000px;
+	margin: auto;
+}
+
+header{
+	/*background-color: orangered;*/
+	background-image: url("img/caraivarua.jpg");
+	height: 120px;
+	margin: center;
+	margin: 8px;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+	font-family: cursive;
+	text-align: center;
+}
+
+h1{
+	color: darkblue;
+	text-align: center;
+	font-family: fantasy;
+	font-weight: 900;
+}
+
+h2{
+	color: yellowgreen;
+	text-align: center;
+	font-family: cursive;
+}
+
+h3{
+	color: orangered;
+	text-align: center;
+	font-family: fantasy;
+	font-weight: 900;
+	font-size: 35px;
+}
+
+figcaption{
+	color: white;
+	font-family: cursive;
+	text-align: center;
+}
+
+img{
+	alignment-baseline: middle;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+#div_esquerda{
+	background-color: cadetblue;
+	min-height: 200px;
+	width: 70%;
+	float: left;
+	align-items: center;
+}
+
+#div_direita{
+	background-color: yellowgreen;
+	min-height: 200px;
+	width: 30%;
+	float: right;
+	align-items: center;
+}
+
+#div_inferior{
+	background-color: orangered;
+	min-height: 200px;
+	width: 100%;
+	float: inherit;
+}
+
+#div_video{
+	background-color: darkorange;
+	min-height: 200px;
+	width: 90%;
+	float: none;
+}
+
+footer{
+	clear: both;
+	background-color: darkred;
+	height: 30px;
+	text-align: center;
+	padding: 10px, 0px, 0px, 100px;
+}
